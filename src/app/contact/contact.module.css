@@ -1,0 +1,80 @@
+.contactSection {
+    background-color: #0d0d24;
+    color: #e3e3e3;
+    padding: 60px 20px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    color: #66fcf1;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    font-size: 1.1rem;
+    color: #c1c1c1;
+    margin-bottom: 40px;
+  }
+  
+  .contactForm {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .formGroup {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .labels {
+    font-size: 1rem;
+    color: #66fcf1;
+    margin-bottom: 8px;
+  }
+  
+  .inputs,
+  .texts {
+    padding: 12px;
+    background-color: #1b1b2f;
+    border: 1px solid #66fcf1;
+    color: #e3e3e3;
+    font-size: 1rem;
+    border-radius: 5px;
+  }
+  
+  .texts {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  .inputs:focus,
+  .texts:focus {
+    outline: none;
+    border-color: #45a29e;
+  }
+  
+  .submitButton {
+    padding: 12px 20px;
+    background-color: #66fcf1;
+    color: #0d0d24;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submitButton:hover {
+    background-color: #45a29e;
+  }
+  
